@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0px 120px;
+}
+
+.header__line {
+    background-color: white;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__nav {
+    padding-top: 26px;
+    display: flex;
+    align-items: center;
+}
+
+.nav__bar {
+    margin-left: 1000px;
+}
+
+.nav__item {
+    color: black;
+    font-size: 16px;
+    margin-right: 25px;
+}
+
+.contact_us {
+    margin-left: 100px;
+    color: black;
+}
+
+.nav__item {
+    position: relative;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.nav__item::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s;
+}
+
+.nav__item:hover {
+    color: black;
+}
+
+.nav__item:hover::before {
+    transform: scaleX(1);
+}
+
+.header__header {
+    height: 1620px;
+}
+
+.title1 {
+    padding: 100px 120px;
+    font-family: Inter;
+    font-size: 72px;
+}
+
+.line1 {
+    width: 76px;
+    height: 1px;
+    background-color: black;
+}
+
+.text1 p {
+    margin-top: -30px;
+    margin-left: 100px;
+
+    font-family: Inter;
+    font-size: 32px;
+}
+
+.aaa {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.navv {
+    position: relative;
+    display: inline-block;
+    color: #7E8492;
+    margin-right: 50px;
+    transition: 0.5s;
+}
+
+.navv::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s;
+}
+
+.navv:hover {
+    color: black;
+}
+
+.navv:hover::before {
+    transform: scaleX(1);
+}
+
+.girle1 {
+    margin-top: 250px;
+    margin-left: 200px;
+}
+
+.writer1 {
+    margin-top: -530px;
+    margin-left: 800px;
+}
+
+.header__footer {
+    height: 851px;
+}
+
+.title7 {
+    padding: 180px 120px;
+
+    font-family: Inter;
+    font-size: 64px;
+}
+
+.text5 {
+    margin-top: 10px;
+    margin-left: 100px;
+
+    font-family: Inter;
+    font-size: 24px;
+}
+
+.line2 {
+    width: 76px;
+    height: 1px;
+    background-color: black;
+
+    margin-left: 20px;
+}
+
+.text5 p {
+    font-family: Inter;
+    font-size: 32px;
+    color: black;
+
+    margin-top: -20px;
+    margin-left: 100px;
+}
+
+.button2 {
+    background: black;
+    border-radius: 100px;
+    padding: 16px 32px 16px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+
+    margin-top: -50px;
+    margin-left: 1400px;
+}
+
+.text__button2 {
+    color: white;
+    gap: 8px;
+    text-align: center;
+    font-family: Inter;
+}
+
+.logo__end {
+    margin-left: 120px;
+    margin-top: 150px;
+    font-family: Inter;
+}
+
+.nav__bar__end {
+    font-family: Inter;
+    font-size: 16px;
+
+    margin-top: -100px;
+    margin-left: 500px;
+}
+
+.nav__end {
+    color: black;
+}
+
+.end {
+    color: #AFB3BB;
+    text-align: center;
+}
+
